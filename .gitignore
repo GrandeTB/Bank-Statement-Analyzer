@@ -1,0 +1,12 @@
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+
+# Ignore sensitive and generated data
+data/raw_pdfs/
+data/cleaned_data/
+data/extracted_csvs/
+data/*.csv
+data/*.pdf
+
+
