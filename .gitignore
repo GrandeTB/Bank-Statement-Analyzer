@@ -1,5 +1,10 @@
 __pycache__/
 *.pyc
-data/extracted_csvs/
-data/cleaned_data/
 .env
+
+# Ignore all raw and processed financial data
+data/raw_pdfs/
+data/cleaned_data/
+data/extracted_csvs/
+data/*.csv
+data/*.pdf
