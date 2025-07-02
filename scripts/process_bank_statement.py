@@ -68,3 +68,4 @@ if __name__ == "__main__":
     year = 2025  # Set your year here or detect it later
 
     process_all_pdfs(input_folder, output_folder, merged_csv_path, year)
+# Minor update to force Git to track this file
