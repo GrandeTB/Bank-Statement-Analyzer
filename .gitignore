@@ -8,3 +8,5 @@ data/cleaned_data/
 data/extracted_csvs/
 data/*.csv
 data/*.pdf
+code/
+
