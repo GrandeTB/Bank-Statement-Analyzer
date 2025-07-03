@@ -23,14 +23,14 @@ A lightweight Python tool to extract transactions from bank statement PDFs, clea
 ## 📂 Project Structure
 
 Bank-Statement-Analyzer/
-├── assets/ # Banner and other static assets
+├── assets/
 ├── data/
-│ ├── raw_pdfs/ # 🔒 Your original PDF statements (ignored by Git)
-│ ├── cleaned_data/ # Auto-generated cleaned CSV files
-│ ├── extracted_csvs/ # Intermediate extracted CSVs (optional)
-│ └── all_statements_merged.csv # Final merged output
+│ ├── raw_pdfs/
+│ ├── cleaned_data/
+│ ├── extracted_csvs/
+│ └── all_statements_merged.csv
 ├── scripts/
-│ └── process_bank_statement.py # Main processing script
+│ └── process_bank_statement.py
 ├── .gitignore
 ├── requirements.txt
 └── README.md
